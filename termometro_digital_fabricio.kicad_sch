@@ -1729,6 +1729,356 @@
 				)
 			)
 		)
+		(symbol "New_Library:18650"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "18650"
+				(at -3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
+				(at -6.35 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Step-Up Boost DC-DC Regulator Adjustable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT*23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "18650_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "18650_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "New_Library:MT3608"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MT3608"
+				(at -3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
+				(at -6.35 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Step-Up Boost DC-DC Regulator Adjustable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT*23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MT3608_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MT3608_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "New_Library:TP4056"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1776,22 +2126,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "TP4056_0_1"
+			(symbol "TP4056_1_1"
 				(rectangle
-					(start -6.35 5.08)
-					(end 6.35 -5.08)
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 255 251 198 1)
 					)
 				)
-			)
-			(symbol "TP4056_1_1"
-				(text "TP4056"
-					(at -0.254 6.35 0)
+				(text "TP4056\n"
+					(at 0.254 4.826 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1799,16 +2148,16 @@
 					)
 				)
 				(pin output line
-					(at 8.89 2.54 180)
+					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "1"
+					(name "OUT+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1817,16 +2166,16 @@
 					)
 				)
 				(pin output line
-					(at 8.89 -2.54 180)
+					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "2"
+					(name "OUT-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2193,199 +2542,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Regulator_Switching:MT3608"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MT3608"
-				(at -3.81 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
-				(at -6.35 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Step-Up Boost DC-DC Regulator Adjustable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT*23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MT3608_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MT3608_1_1"
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 0 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2893,9 +3049,9 @@
 		)
 		(symbol "power:VCC"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2909,7 +3065,7 @@
 				)
 			)
 			(property "Value" "VCC"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2993,8 +3149,8 @@
 			(symbol "VCC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VCC"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3151,6 +3307,18 @@
 		(uuid "0a4ef6e8-4a02-40d7-a693-1b9d11c51f07")
 	)
 	(junction
+		(at 92.71 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d994931-263a-4627-9bd6-7593df7c1985")
+	)
+	(junction
+		(at 156.21 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "155cb730-bc24-4587-ae69-0ede13372622")
+	)
+	(junction
 		(at 185.42 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3169,6 +3337,12 @@
 		(uuid "2f9da074-4842-4aaa-b921-fbd4a6d0db72")
 	)
 	(junction
+		(at 204.47 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "333ca20d-4258-4e70-9b9c-95f8396c904c")
+	)
+	(junction
 		(at 187.96 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3179,12 +3353,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4501af7c-0895-470b-a2d2-57821de9779b")
-	)
-	(junction
-		(at 146.05 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4507d992-07ee-45f3-b254-8d99bdbd10ba")
 	)
 	(junction
 		(at 243.84 144.78)
@@ -3217,6 +3385,12 @@
 		(uuid "6faa5b45-35af-42fe-86a0-832b249cccbd")
 	)
 	(junction
+		(at 274.32 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76a9d3cb-4e49-41af-a7cd-81347c1ebe34")
+	)
+	(junction
 		(at 60.96 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3227,6 +3401,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79af3b53-e03d-4511-a8d6-f9df8574dd35")
+	)
+	(junction
+		(at 120.65 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81c9e80a-c492-4bd5-984a-197589ecd306")
 	)
 	(junction
 		(at 274.32 43.18)
@@ -3265,6 +3445,12 @@
 		(uuid "b1d76561-e1bd-4391-bd99-e9fba4cbcee6")
 	)
 	(junction
+		(at 137.16 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b28f7c00-eda8-4598-8b5e-35b45994cc70")
+	)
+	(junction
 		(at 187.96 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3283,6 +3469,18 @@
 		(uuid "cd34432d-29df-4a2f-8c4d-7b2b890450da")
 	)
 	(junction
+		(at 204.47 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d232fb9a-3565-4523-b23e-cc6e43bbf588")
+	)
+	(junction
+		(at 44.45 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc1c3b2b-93d6-4fe0-9abc-0491be4aaf27")
+	)
+	(junction
 		(at 92.71 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3299,6 +3497,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f25f5050-0b60-4ca6-b9b6-13e244203f2b")
+	)
+	(junction
+		(at 120.65 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5d77a99-0e9b-4109-86be-b388b33aaaef")
 	)
 	(wire
 		(pts
@@ -3322,7 +3526,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 39.37) (xy 54.61 33.02)
+			(xy 54.61 39.37) (xy 54.61 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3349,6 +3553,16 @@
 			(type default)
 		)
 		(uuid "072293ab-96a9-43b2-a4af-3f0e28775550")
+	)
+	(wire
+		(pts
+			(xy 204.47 22.86) (xy 204.47 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0d873e-99d1-4e96-af4a-e2f4716ccd3d")
 	)
 	(wire
 		(pts
@@ -3402,6 +3616,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 25.4) (xy 120.65 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d8707b0-3849-4d79-9f2e-2f84d5d5eeb3")
+	)
+	(wire
+		(pts
+			(xy 120.65 15.24) (xy 120.65 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9beb71-48e4-4290-8511-2b68f4be6c95")
+	)
+	(wire
+		(pts
 			(xy 44.45 33.02) (xy 44.45 48.26)
 		)
 		(stroke
@@ -3422,6 +3656,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 48.26) (xy 44.45 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1279d17c-7d0b-4b8f-bd58-f60420dd47a7")
+	)
+	(wire
+		(pts
 			(xy 242.57 80.01) (xy 246.38 80.01)
 		)
 		(stroke
@@ -3432,7 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 31.75) (xy 85.09 30.48)
+			(xy 87.63 31.75) (xy 87.63 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3522,16 +3766,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 52.07) (xy 16.51 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21627d79-2b1f-4870-bf6f-4e56b2160477")
-	)
-	(wire
-		(pts
 			(xy 44.45 48.26) (xy 54.61 48.26)
 		)
 		(stroke
@@ -3539,6 +3773,26 @@
 			(type default)
 		)
 		(uuid "22da1102-5e3a-44db-90d5-8cf3b3926ab0")
+	)
+	(wire
+		(pts
+			(xy 137.16 25.4) (xy 137.16 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23dcac7a-dca0-4e54-8d0a-a58f026c5922")
+	)
+	(wire
+		(pts
+			(xy 204.47 109.22) (xy 204.47 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2655dc7a-2117-4e06-bd35-68d0f8c2b965")
 	)
 	(wire
 		(pts
@@ -3592,6 +3846,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 30.48) (xy 87.63 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8e688e-d4c3-47a7-bfa2-84a22845119a")
+	)
+	(wire
+		(pts
 			(xy 165.1 91.44) (xy 165.1 86.36)
 		)
 		(stroke
@@ -3642,16 +3906,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 48.26) (xy 72.39 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3817f69d-59bd-42ed-bb98-52a46ddeb45f")
-	)
-	(wire
-		(pts
 			(xy 219.71 96.52) (xy 222.25 96.52)
 		)
 		(stroke
@@ -3679,6 +3933,16 @@
 			(type default)
 		)
 		(uuid "3bcffbea-6c0e-49fc-bdf0-e43386fa4a1a")
+	)
+	(wire
+		(pts
+			(xy 271.78 90.17) (xy 271.78 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d478dc1-3976-4ccb-ba15-750a49a6e610")
 	)
 	(wire
 		(pts
@@ -3742,6 +4006,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 25.4) (xy 36.83 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42049709-cd25-45fa-9351-5d5b431f36cd")
+	)
+	(wire
+		(pts
 			(xy 186.69 66.04) (xy 186.69 71.12)
 		)
 		(stroke
@@ -3749,16 +4023,6 @@
 			(type default)
 		)
 		(uuid "42246bb7-56d8-4955-ad3d-51644356f3ae")
-	)
-	(wire
-		(pts
-			(xy 85.09 30.48) (xy 82.55 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4344a302-b21a-48ae-b280-debbbfd90de8")
 	)
 	(wire
 		(pts
@@ -3782,6 +4046,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 40.64) (xy 87.63 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4822c7fa-5b8c-460a-9f29-98db4bf043bb")
+	)
+	(wire
+		(pts
 			(xy 243.84 147.32) (xy 243.84 144.78)
 		)
 		(stroke
@@ -3789,16 +4063,6 @@
 			(type default)
 		)
 		(uuid "498e5991-2a10-4472-82a8-d6420d0f1601")
-	)
-	(wire
-		(pts
-			(xy 120.65 62.23) (xy 120.65 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49d5ddc8-cbad-4ce1-9151-8f4662ee5199")
 	)
 	(wire
 		(pts
@@ -3832,13 +4096,13 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 99.06) (xy 281.94 100.33)
+			(xy 82.55 30.48) (xy 82.55 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d1bd8ef-efd5-4d04-89c9-de9b0fb8778e")
+		(uuid "4b997c57-1921-416d-8fef-f2b963319940")
 	)
 	(wire
 		(pts
@@ -3902,7 +4166,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 38.1) (xy 60.96 48.26)
+			(xy 60.96 40.64) (xy 60.96 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3922,13 +4186,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 102.87) (xy 146.05 105.41)
+			(xy 92.71 102.87) (xy 92.71 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c571097-1e04-48cb-8881-1920a66db217")
+		(uuid "58a11aec-d291-479f-96c2-0ea04992cec7")
+	)
+	(wire
+		(pts
+			(xy 274.32 25.4) (xy 274.32 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c551f19-ec2c-4ae8-a06b-857f90b69d09")
 	)
 	(wire
 		(pts
@@ -3972,17 +4246,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 90.17) (xy 281.94 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eef55d1-e3ec-4e59-895a-2ff79306f42f")
-	)
-	(wire
-		(pts
-			(xy 54.61 33.02) (xy 62.23 33.02)
+			(xy 54.61 30.48) (xy 62.23 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4072,16 +4336,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 40.64) (xy 82.55 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b9ffc22-d57b-4d25-86fb-f949eb4a9792")
-	)
-	(wire
-		(pts
 			(xy 223.52 93.98) (xy 219.71 93.98)
 		)
 		(stroke
@@ -4109,6 +4363,16 @@
 			(type default)
 		)
 		(uuid "6e3ecaab-32ac-4e87-86a2-0ff2af204ce1")
+	)
+	(wire
+		(pts
+			(xy -8.89 30.48) (xy -2.54 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed350b9-2d5c-4e54-8a5b-b9931200cd31")
 	)
 	(wire
 		(pts
@@ -4182,16 +4446,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 40.64) (xy 274.32 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c7fa2f5-8cad-4a4e-a61b-5797e3ec8c02")
-	)
-	(wire
-		(pts
 			(xy 236.22 106.68) (xy 236.22 78.74)
 		)
 		(stroke
@@ -4229,6 +4483,16 @@
 			(type default)
 		)
 		(uuid "8178e065-1de2-4bf3-b0d6-165372adab53")
+	)
+	(wire
+		(pts
+			(xy -8.89 25.4) (xy -2.54 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828be37f-77f7-4baa-9e3e-a342d86ff8e0")
 	)
 	(wire
 		(pts
@@ -4272,7 +4536,17 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 101.6) (xy 204.47 105.41)
+			(xy 204.47 109.22) (xy 100.33 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a57e0a-e544-40de-aa52-42a597446a76")
+	)
+	(wire
+		(pts
+			(xy 204.47 101.6) (xy 204.47 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4302,6 +4576,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 15.24) (xy 120.65 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4a7451-75d6-4390-844f-398d5655e584")
+	)
+	(wire
+		(pts
 			(xy 246.38 147.32) (xy 243.84 147.32)
 		)
 		(stroke
@@ -4322,6 +4606,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 102.87) (xy 92.71 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8925bd-13a6-4069-9edc-185372f7900b")
+	)
+	(wire
+		(pts
 			(xy 173.99 45.72) (xy 173.99 46.99)
 		)
 		(stroke
@@ -4332,7 +4626,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 102.87) (xy 146.05 102.87)
+			(xy 133.35 102.87) (xy 187.96 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4372,6 +4666,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 25.4) (xy 274.32 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9442c54c-0d44-457d-bf37-2217ab26d047")
+	)
+	(wire
+		(pts
 			(xy 187.96 58.42) (xy 187.96 59.69)
 		)
 		(stroke
@@ -4402,7 +4706,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 121.92) (xy 274.32 137.16)
+			(xy 274.32 121.92) (xy 274.32 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4449,6 +4753,16 @@
 			(type default)
 		)
 		(uuid "a3d88ac7-d6ba-4f4b-a5cf-3fd271dc503d")
+	)
+	(wire
+		(pts
+			(xy 271.78 97.79) (xy 250.19 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4624413-fc1d-4fa6-8598-2735cfa1e33b")
 	)
 	(wire
 		(pts
@@ -4512,7 +4826,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 38.1) (xy 60.96 38.1)
+			(xy 12.7 25.4) (xy 17.78 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5d74fd-3a26-46b7-b259-71bd24c01e2d")
+	)
+	(wire
+		(pts
+			(xy 62.23 40.64) (xy 60.96 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4522,13 +4846,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 102.87) (xy 187.96 102.87)
+			(xy 12.7 30.48) (xy 17.78 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aeb78ba3-36ad-4b9b-8357-e68d2eb2456a")
+		(uuid "af14cf0d-9408-44f5-9df0-1acf09131a6c")
 	)
 	(wire
 		(pts
@@ -4552,7 +4876,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 46.99) (xy 156.21 50.8)
+			(xy 156.21 25.4) (xy 156.21 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4602,7 +4926,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 137.16) (xy 243.84 134.62)
+			(xy 243.84 128.27) (xy 243.84 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4629,6 +4953,16 @@
 			(type default)
 		)
 		(uuid "c04a24b7-840d-4cc6-b198-df40345cda68")
+	)
+	(wire
+		(pts
+			(xy 100.33 109.22) (xy 100.33 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c290a75e-8d6c-4e00-a4c8-e308bb24c956")
 	)
 	(wire
 		(pts
@@ -4702,13 +5036,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 59.69) (xy 137.16 57.15)
+			(xy 274.32 128.27) (xy 274.32 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce095c27-061d-48cb-bed3-b486c4dfc5fb")
+		(uuid "cf92f385-8a6d-4a06-9708-938c5b3a4822")
 	)
 	(wire
 		(pts
@@ -4719,6 +5053,26 @@
 			(type default)
 		)
 		(uuid "cffd6d04-b820-4332-9ffe-5ae3afffd381")
+	)
+	(wire
+		(pts
+			(xy 218.44 97.79) (xy 218.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0625e1c-c413-4f98-856a-d67b86e16f81")
+	)
+	(wire
+		(pts
+			(xy 218.44 109.22) (xy 204.47 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2119837-70e5-4c12-a24e-c5f52b4acf98")
 	)
 	(wire
 		(pts
@@ -4782,6 +5136,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 97.79) (xy 218.44 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a11a04-1428-4122-9c55-33dfd96b58ef")
+	)
+	(wire
+		(pts
 			(xy 274.32 43.18) (xy 274.32 40.64)
 		)
 		(stroke
@@ -4792,6 +5156,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 128.27) (xy 274.32 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4d7f18-a1ef-4300-8639-c4a7acc00a0b")
+	)
+	(wire
+		(pts
 			(xy 120.65 83.82) (xy 120.65 102.87)
 		)
 		(stroke
@@ -4799,6 +5173,16 @@
 			(type default)
 		)
 		(uuid "db5c83ce-dab5-49e4-934a-ae116f0de81b")
+	)
+	(wire
+		(pts
+			(xy 156.21 25.4) (xy 137.16 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de215449-917b-4c27-b18e-7e0b2604476b")
 	)
 	(wire
 		(pts
@@ -4842,7 +5226,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 25.4) (xy 60.96 22.86)
+			(xy 120.65 25.4) (xy 120.65 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e47ab9aa-b3a8-4919-bd67-3f206fbee3f8")
+	)
+	(wire
+		(pts
+			(xy 60.96 15.24) (xy 60.96 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4869,16 +5263,6 @@
 			(type default)
 		)
 		(uuid "e8e99ae3-57e7-4a5a-a528-45961cf6e383")
-	)
-	(wire
-		(pts
-			(xy 271.78 90.17) (xy 281.94 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecf5df01-0e23-4513-8076-65612f738cec")
 	)
 	(wire
 		(pts
@@ -4932,13 +5316,23 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 39.37) (xy 85.09 40.64)
+			(xy 87.63 39.37) (xy 87.63 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f4e6328e-300e-47bc-91ea-47a6a7c2fa5b")
+	)
+	(wire
+		(pts
+			(xy 82.55 38.1) (xy 82.55 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ee82a5-8a2b-43fd-972e-6a49eb2db54b")
 	)
 	(wire
 		(pts
@@ -4972,6 +5366,26 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 48.26) (xy 44.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc028d3e-c441-47cd-873c-f7cb63bd1783")
+	)
+	(wire
+		(pts
+			(xy 156.21 25.4) (xy 204.47 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3c6919-9082-49b2-8d0f-da5473a343ea")
+	)
+	(wire
+		(pts
 			(xy 187.96 81.28) (xy 187.96 96.52)
 		)
 		(stroke
@@ -4979,6 +5393,16 @@
 			(type default)
 		)
 		(uuid "fc91be40-64bf-47df-8c5e-21340787ed01")
+	)
+	(wire
+		(pts
+			(xy 33.02 30.48) (xy 33.02 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed4f87e-7537-4efe-9d94-bce916ba81ba")
 	)
 	(wire
 		(pts
@@ -5061,17 +5485,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 204.47 25.4 0)
+		(lib_id "power:VEE")
+		(at 204.47 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0330f9ce-44d4-47f4-94d1-50db9c5fc7f3")
-		(property "Reference" "#PWR06"
-			(at 204.47 29.21 0)
+		(uuid "114e98cc-33f8-4cc0-b819-80e240ae9228")
+		(property "Reference" "#PWR03"
+			(at 204.47 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,8 +5503,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 204.47 20.32 0)
+		(property "Value" "VEE"
+			(at 204.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +5512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 25.4 0)
+			(at 204.47 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 25.4 0)
+			(at 204.47 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,8 +5529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 204.47 25.4 0)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 204.47 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,144 +5539,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "878ce467-fe0d-4b28-acb6-5eb7311262d0")
-		)
-		(instances
-			(project "termometro_digital_fabricio"
-				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:TP4056")
-		(at -33.02 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06db27fc-27aa-4035-920f-de11ab148d02")
-		(property "Reference" "U6"
-			(at -33.02 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at -33.02 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -33.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -33.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -33.02 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "fcdb2846-7836-487a-b8fe-b42588b86838")
-		)
-		(pin ""
-			(uuid "b3d9a480-5ec1-4c25-bf94-aba0e1b35900")
+			(uuid "a4177b07-b281-4385-8383-bb9c2661985a")
 		)
 		(instances
 			(project ""
-				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 16.51 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10727965-3aa3-4009-8fdc-b2c080717c6b")
-		(property "Reference" "#PWR03"
-			(at 16.51 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 16.51 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 16.51 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 16.51 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 16.51 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b45ef32f-20c6-413e-b202-22f9b70064f8")
-		)
-		(instances
-			(project "termometro_digital_fabricio"
 				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
 					(reference "#PWR03")
 					(unit 1)
@@ -5355,7 +5645,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:SOIC-8"
 			(at 69.85 35.56 0)
 			(effects
 				(font
@@ -5410,6 +5700,74 @@
 			(project ""
 				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:TP4056")
+		(at -16.51 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21c8415b-31cf-406a-ab46-880c1f1f61ea")
+		(property "Reference" "U6"
+			(at -16.51 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -16.51 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:TP4056"
+			(at -16.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -16.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -16.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "779c794c-2348-4e5a-b379-2f1592e888dc")
+		)
+		(pin "2"
+			(uuid "7a30ae9a-0034-428c-bd4a-5ed939f478e9")
+		)
+		(instances
+			(project ""
+				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5486,72 +5844,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 281.94 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b837c06-570c-4f26-bae8-c46e820cb348")
-		(property "Reference" "#PWR010"
-			(at 281.94 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 281.94 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 281.94 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4dacbe7-1f7e-4b61-8bbf-1d0674b12293")
-		)
-		(instances
-			(project "termometro_digital_fabricio"
-				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 173.99 41.91 0)
 		(unit 1)
@@ -5621,17 +5913,44 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 243.84 134.62 0)
+		(lib_id "New_Library:MT3608")
+		(at 25.4 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3747a453-fe26-4a9a-912e-f5980a206596")
-		(property "Reference" "#PWR08"
-			(at 243.84 138.43 0)
+		(uuid "3811077a-c358-4ce6-95f2-49c83c785074")
+		(property "Reference" "U1"
+			(at 25.4 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MT3608"
+			(at 25.4 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:MT3608"
+			(at 26.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
+			(at 19.05 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5639,16 +5958,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 243.84 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 134.62 0)
+		(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
+			(at 25.4 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5656,31 +5967,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 243.84 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "aa34ff0f-363f-457d-b22d-31ed139bc836")
 		)
-		(property "Description" ""
-			(at 243.84 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "4"
+			(uuid "5831e687-6592-4ae5-b977-cf182ca7f1c9")
+		)
+		(pin "2"
+			(uuid "769436b9-9bdb-48e9-bee9-becca6063c1e")
+		)
+		(pin "6"
+			(uuid "608af90b-308c-4de4-919f-1dd78492fbf1")
 		)
 		(pin "1"
-			(uuid "1001041e-6cf8-4cc6-9b5f-5fca24dc3afe")
+			(uuid "4f7b2cf5-f2ef-47b2-9f62-a1f2b223c998")
 		)
 		(instances
-			(project "termometro_digital_fabricio"
+			(project ""
 				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
-					(reference "#PWR08")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5712,7 +6017,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 45.085 29.21 0)
 			(effects
 				(font
@@ -5754,72 +6059,6 @@
 			(project ""
 				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VEE")
-		(at 204.47 105.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e9293e2-e4ed-44d7-8e36-a91a444f4764")
-		(property "Reference" "#PWR07"
-			(at 204.47 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VEE"
-			(at 204.47 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VEE\""
-			(at 204.47 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6a3966a-ce8b-4588-91a0-4a078d898dc1")
-		)
-		(instances
-			(project "termometro_digital_fabricio"
-				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6220,74 +6459,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 137.16 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53cec93a-5938-4868-81f3-58f47d1646b5")
-		(property "Reference" "#PWR011"
-			(at 137.16 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 137.16 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e88ff850-06cd-4c07-b37c-18d4c6ebdf48")
-		)
-		(instances
-			(project "termometro_digital_fabricio"
-				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 281.94 95.25 0)
+		(at 246.38 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6295,7 +6468,7 @@
 		(dnp no)
 		(uuid "5cb67889-1c78-4981-83c0-c93939305b37")
 		(property "Reference" "R7"
-			(at 277.368 94.234 0)
+			(at 247.396 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +6477,7 @@
 			)
 		)
 		(property "Value" "1k5"
-			(at 275.336 96.774 0)
+			(at 244.856 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +6486,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
-			(at 280.162 95.25 90)
+			(at 246.38 96.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,7 +6495,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 281.94 95.25 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,7 +6504,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 281.94 95.25 0)
+			(at 246.38 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,16 +6621,16 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 156.21 46.99 0)
+		(at 204.47 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "72969f10-d5ad-4c8b-a1b2-051c08ea9e8c")
-		(property "Reference" "#PWR013"
-			(at 156.21 50.8 0)
+		(uuid "783f0975-3bb4-46dc-8d5c-00797e04d4d5")
+		(property "Reference" "#PWR02"
+			(at 204.47 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6466,7 +6639,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 156.21 41.91 0)
+			(at 204.47 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,7 +6647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 46.99 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,7 +6656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 46.99 0)
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,8 +6664,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 156.21 46.99 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 204.47 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,12 +6674,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9da09ea-ab13-4a80-b69b-6ff313df788f")
+			(uuid "ff3da18c-75b6-48f2-a6a3-8af9adbab1ef")
 		)
 		(instances
-			(project "termometro_digital_fabricio"
+			(project ""
 				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
-					(reference "#PWR013")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6605,43 +6778,44 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 60.96 22.86 0)
+		(lib_id "New_Library:18650")
+		(at 5.08 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "81dc47cb-57fb-4946-8afd-b9e8915e782a")
-		(property "Reference" "#PWR02"
-			(at 60.96 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 60.96 17.78 0)
+		(uuid "84370076-368e-42b8-bd23-90524cbae744")
+		(property "Reference" "U7"
+			(at 5.08 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 60.96 22.86 0)
+		(property "Value" "18650"
+			(at 5.08 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Footprint" "Library:18650"
+			(at 6.35 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 22.86 0)
+			(at -1.27 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6650,7 +6824,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 22.86 0)
+			(at 5.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6658,13 +6832,25 @@
 				(hide yes)
 			)
 		)
+		(pin "6"
+			(uuid "dc79ba5d-c3af-4396-969f-cab74f098013")
+		)
+		(pin "2"
+			(uuid "15959a8e-0a34-4a38-aa2d-cb1566fddefb")
+		)
 		(pin "1"
-			(uuid "c3cf4e25-6bd4-460c-b7bd-a6d55756ca68")
+			(uuid "f3ed6b2a-17b5-45af-9ab5-6b2b86d9ec4e")
+		)
+		(pin "3"
+			(uuid "cf2b4650-009c-46af-a16b-8018bdabcd94")
+		)
+		(pin "4"
+			(uuid "94699415-9de1-4bf5-a47d-f24eb183046a")
 		)
 		(instances
-			(project "termometro_digital_fabricio"
+			(project ""
 				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
-					(reference "#PWR02")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -6766,7 +6952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 93.6752 38.1 0)
 			(effects
 				(font
@@ -6803,352 +6989,6 @@
 			(project "termometro_digital_fabricio"
 				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VEE")
-		(at 100.33 25.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a5f0ca7-54df-47d7-bc4e-7e39ca13a11d")
-		(property "Reference" "#PWR04"
-			(at 100.33 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VEE"
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VEE\""
-			(at 100.33 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26435ace-3d87-4cce-965d-7e4b19f7ac95")
-		)
-		(instances
-			(project "termometro_digital_fabricio"
-				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:MT3608")
-		(at 25.4 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e3cec45-d073-4ff6-a357-29d0361ef24e")
-		(property "Reference" "U1"
-			(at 25.4 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MT3608"
-			(at 25.4 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 26.67 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
-			(at 19.05 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
-			(at 25.4 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "87ef310c-2499-4bd9-9436-330687d76cd7")
-		)
-		(pin "1"
-			(uuid "b63b1ba6-1f32-4018-94c0-c2a0bfa84bc1")
-		)
-		(pin "2"
-			(uuid "33dc1a3f-2929-4ad2-9b86-78747f5e8622")
-		)
-		(pin "4"
-			(uuid "d1555066-6e60-416e-b02c-d56cc50fef0f")
-		)
-		(pin "5"
-			(uuid "319c0acf-e780-44db-ab70-dbd7303b8a19")
-		)
-		(pin "6"
-			(uuid "d0cb8485-a5dc-4348-b04c-05e40fd02be3")
-		)
-		(instances
-			(project ""
-				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 120.65 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9904ef51-7b7f-4619-83dd-f15d56c475c2")
-		(property "Reference" "#PWR012"
-			(at 120.65 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 120.65 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75a6fd20-46fc-4b39-b892-8b47cda9ffe8")
-		)
-		(instances
-			(project "termometro_digital_fabricio"
-				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 146.05 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a3d6306-76ab-4a2e-bc83-a9ca4614fe0e")
-		(property "Reference" "#PWR05"
-			(at 146.05 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3614a4b0-862e-47be-9d99-1b4aa13c4e8e")
-		)
-		(instances
-			(project "termometro_digital_fabricio"
-				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 274.32 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a17e3e9f-caa6-4b19-8a06-a1a1b8bd7877")
-		(property "Reference" "#PWR09"
-			(at 274.32 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 274.32 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d889421-6331-4034-9ca7-824e2ee2d30d")
-		)
-		(instances
-			(project "termometro_digital_fabricio"
-				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7224,8 +7064,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 44.45 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab7c86a1-cf3c-45e2-b910-e984bbb6f48a")
+		(property "Reference" "#PWR01"
+			(at 44.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f86811f3-042b-4f98-b3b6-c2a68c3dbf69")
+		)
+		(instances
+			(project ""
+				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 85.09 35.56 0)
+		(at 87.63 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7234,7 +7140,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae2772af-a43f-4d95-a629-3c6206ffae35")
 		(property "Reference" "C7"
-			(at 88.9 33.4009 0)
+			(at 91.44 33.4009 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,7 +7149,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 88.9 35.9409 0)
+			(at 91.44 35.9409 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,8 +7157,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 86.0552 39.37 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+			(at 88.5952 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7261,7 +7167,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 35.56 0)
+			(at 87.63 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7270,7 +7176,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 85.09 35.56 0)
+			(at 87.63 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7548,72 +7454,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 72.39 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d086e96e-7aa6-4315-bfb2-e778f179a895")
-		(property "Reference" "#PWR01"
-			(at 72.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1165bf16-650c-41ba-982e-db93c0f26eb7")
-		)
-		(instances
-			(project ""
-				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Temperature:LM35-LP")
 		(at 120.65 76.2 0)
 		(unit 1)
@@ -7854,7 +7694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 134.3152 96.52 0)
 			(effects
 				(font
