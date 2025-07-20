@@ -12026,6 +12026,19 @@
 		(layer "Edge.Cuts")
 		(uuid "1233d520-4b5b-4438-a5bb-f6e61b773858")
 	)
+	(gr_text "Termômetro Digital\nFabricio Rodrigues"
+		(at 131.5 51 0)
+		(layer "F.SilkS")
+		(uuid "54806442-058e-470b-ac8b-d54ebea52f7b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 198.08 87.85)
 		(end 200 89.77)
