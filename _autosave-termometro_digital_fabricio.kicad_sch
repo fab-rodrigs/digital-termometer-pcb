@@ -1931,10 +1931,10 @@
 				)
 			)
 			(symbol "18650_1_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
+				(pin passive line
+					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "IN+"
+					(name "OUT+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1950,9 +1950,9 @@
 					)
 				)
 				(pin input line
-					(at -7.62 -2.54 0)
+					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "IN-"
+					(name "OUT-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1967,10 +1967,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 2.54 180)
+				(pin power_in line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "OUT+"
+					(name "IN+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1986,9 +1986,9 @@
 					)
 				)
 				(pin input line
-					(at 7.62 -2.54 180)
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "OUT-"
+					(name "IN-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7123,85 +7123,6 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:18650")
-		(at 0 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84370076-368e-42b8-bd23-90524cbae744")
-		(property "Reference" "U7"
-			(at 0 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "18650"
-			(at 0 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:18650"
-			(at 1.27 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -6.35 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "dc79ba5d-c3af-4396-969f-cab74f098013")
-		)
-		(pin "2"
-			(uuid "15959a8e-0a34-4a38-aa2d-cb1566fddefb")
-		)
-		(pin "1"
-			(uuid "f3ed6b2a-17b5-45af-9ab5-6b2b86d9ec4e")
-		)
-		(pin "3"
-			(uuid "cf2b4650-009c-46af-a16b-8018bdabcd94")
-		)
-		(pin "4"
-			(uuid "94699415-9de1-4bf5-a47d-f24eb183046a")
-		)
-		(instances
-			(project ""
-				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 181.61 53.34 180)
 		(unit 1)
@@ -7468,6 +7389,85 @@
 			(project "termometro_digital_fabricio"
 				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:18650")
+		(at 0 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a724398b-13d1-4e77-a5c9-255cb534c6d2")
+		(property "Reference" "U7"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18650"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:BatteryHolder_MPD_BH-18650-PC2"
+			(at 1.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
+			(at -6.35 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
+			(at 0 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79682871-e801-4256-94d8-494ce10f290a")
+		)
+		(pin "2"
+			(uuid "5cf63f24-1f0c-42fa-9211-d1a5b1b767ff")
+		)
+		(pin "6"
+			(uuid "2f55ece9-ccc2-4927-be31-6bda8257359f")
+		)
+		(pin "4"
+			(uuid "6f8b5521-b323-47b4-8a47-de4be11dac6c")
+		)
+		(pin "3"
+			(uuid "cbb76257-d4b1-4d8b-95b1-6a512200f59e")
+		)
+		(instances
+			(project ""
+				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -7891,7 +7891,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 121.92 82.55 0)
 			(effects
 				(font
