@@ -1,4 +1,4 @@
-24618473153116303
+24620226130304773
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65673,6 +65673,13 @@ Library
 0
 0
 0
+Library
+BatteryHolder_MPD_BH-18650-PC2
+18650 Battery Holder (http://www.memoryprotectiondevices.com/datasheets/BK-18650-PC2-datasheet.pdf)
+18650 Battery Holder
+0
+2
+2
 Library
 MT3608
 
