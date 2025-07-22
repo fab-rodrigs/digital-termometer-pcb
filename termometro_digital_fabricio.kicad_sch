@@ -1967,42 +1967,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
 					(at 5.08 0 180)
 					(length 2.54) hide
@@ -3546,6 +3510,12 @@
 		(uuid "951563dc-261b-4ae6-ac9f-1af508ff4f5e")
 	)
 	(junction
+		(at -5.08 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a381851-d3a3-4b80-be24-97fef7affec1")
+	)
+	(junction
 		(at 243.84 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3598,6 +3568,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd34432d-29df-4a2f-8c4d-7b2b890450da")
+	)
+	(junction
+		(at 0 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d13db90f-d1f6-4711-9daf-7fb544ed1b75")
 	)
 	(junction
 		(at 204.47 109.22)
@@ -4093,6 +4069,16 @@
 	)
 	(wire
 		(pts
+			(xy -12.7 31.75) (xy 0 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3506b237-fe5a-4c17-add5-894e8d7dc03e")
+	)
+	(wire
+		(pts
 			(xy 161.29 59.69) (xy 152.4 59.69)
 		)
 		(stroke
@@ -4120,16 +4106,6 @@
 			(type default)
 		)
 		(uuid "3942df52-554c-46d5-a4b7-81d50732a875")
-	)
-	(wire
-		(pts
-			(xy 13.97 25.4) (xy 13.97 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "399db062-d400-4159-ab40-a08a83d79d3a")
 	)
 	(wire
 		(pts
@@ -4213,6 +4189,16 @@
 	)
 	(wire
 		(pts
+			(xy 5.08 25.4) (xy 5.08 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41aca7b7-0892-4d04-9e1d-b55a2cd38e00")
+	)
+	(wire
+		(pts
 			(xy 33.02 25.4) (xy 36.83 25.4)
 		)
 		(stroke
@@ -4273,26 +4259,6 @@
 	)
 	(wire
 		(pts
-			(xy 7.62 30.48) (xy 13.97 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47ce761b-0572-4bcc-a582-16a9a0d5df16")
-	)
-	(wire
-		(pts
-			(xy 7.62 25.4) (xy 13.97 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "481b0870-919e-4296-831a-493f600241e3")
-	)
-	(wire
-		(pts
 			(xy 243.84 147.32) (xy 243.84 144.78)
 		)
 		(stroke
@@ -4340,6 +4306,16 @@
 			(type default)
 		)
 		(uuid "4d78201c-42e8-477e-a6db-fd0fcc5a14de")
+	)
+	(wire
+		(pts
+			(xy 17.78 25.4) (xy 5.08 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e60a7cc-21b3-4a31-a020-7679d72eadb1")
 	)
 	(wire
 		(pts
@@ -4413,16 +4389,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 26.67) (xy 17.78 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58657b46-5296-44de-9121-90f4a26b0d24")
-	)
-	(wire
-		(pts
 			(xy 92.71 102.87) (xy 92.71 48.26)
 		)
 		(stroke
@@ -4480,6 +4446,16 @@
 			(type default)
 		)
 		(uuid "5ec91982-534b-4df0-97ac-68763c8c1355")
+	)
+	(wire
+		(pts
+			(xy -12.7 27.94) (xy -12.7 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5edb1ab0-b82c-4f2d-a7a1-c53fda7e5f0e")
 	)
 	(wire
 		(pts
@@ -4603,26 +4579,6 @@
 	)
 	(wire
 		(pts
-			(xy -13.97 30.48) (xy -7.62 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ed350b9-2d5c-4e54-8a5b-b9931200cd31")
-	)
-	(wire
-		(pts
-			(xy 13.97 26.67) (xy 17.78 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7155566b-a8c4-4eae-921e-e554345a2ca0")
-	)
-	(wire
-		(pts
 			(xy 274.32 58.42) (xy 274.32 43.18)
 		)
 		(stroke
@@ -4743,16 +4699,6 @@
 	)
 	(wire
 		(pts
-			(xy -13.97 25.4) (xy -7.62 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "828be37f-77f7-4baa-9e3e-a342d86ff8e0")
-	)
-	(wire
-		(pts
 			(xy 87.63 33.02) (xy 82.55 33.02)
 		)
 		(stroke
@@ -4800,6 +4746,16 @@
 			(type default)
 		)
 		(uuid "83ff8242-24be-4646-a7a1-c38a06df5c19")
+	)
+	(wire
+		(pts
+			(xy -17.78 27.94) (xy -17.78 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865c7e9b-4679-4419-a366-89637cc20ae8")
 	)
 	(wire
 		(pts
@@ -4913,16 +4869,6 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 30.48) (xy 13.97 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93040dbb-6447-402e-b76f-601ab8b0ad94")
-	)
-	(wire
-		(pts
 			(xy 274.32 104.14) (xy 274.32 74.93)
 		)
 		(stroke
@@ -5013,6 +4959,16 @@
 	)
 	(wire
 		(pts
+			(xy 0 31.75) (xy 0 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f81c9e4-ef07-4162-aadb-6e630cd8a3cf")
+	)
+	(wire
+		(pts
 			(xy 237.49 104.14) (xy 246.38 104.14)
 		)
 		(stroke
@@ -5060,6 +5016,16 @@
 			(type default)
 		)
 		(uuid "a667853d-3b0b-4bc7-8c5a-d890e419ccde")
+	)
+	(wire
+		(pts
+			(xy -5.08 30.48) (xy -5.08 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6cf82e8-fd1a-47ee-ad69-fa68b7b40785")
 	)
 	(wire
 		(pts
@@ -5253,6 +5219,16 @@
 	)
 	(wire
 		(pts
+			(xy -5.08 30.48) (xy 17.78 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6cd54a7-5855-4206-b34c-45aeb5b817ae")
+	)
+	(wire
+		(pts
 			(xy 246.38 72.39) (xy 246.38 58.42)
 		)
 		(stroke
@@ -5270,16 +5246,6 @@
 			(type default)
 		)
 		(uuid "c7e00ae3-84df-48da-ad9d-6747d0da6c95")
-	)
-	(wire
-		(pts
-			(xy 13.97 29.21) (xy 17.78 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c91dae4d-8755-4ca4-bd60-755c5f26cf55")
 	)
 	(wire
 		(pts
@@ -5343,16 +5309,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 109.22) (xy 204.47 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2119837-70e5-4c12-a24e-c5f52b4acf98")
-	)
-	(wire
-		(pts
 			(xy 187.96 46.99) (xy 187.96 43.18)
 		)
 		(stroke
@@ -5393,6 +5349,16 @@
 	)
 	(wire
 		(pts
+			(xy 0 29.21) (xy 0 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6426a70-628b-41c5-9b66-9c0646fc05ea")
+	)
+	(wire
+		(pts
 			(xy 271.78 72.39) (xy 274.32 72.39)
 		)
 		(stroke
@@ -5430,6 +5396,16 @@
 			(type default)
 		)
 		(uuid "dac05faa-caf5-42ac-b232-3c56cad7e152")
+	)
+	(wire
+		(pts
+			(xy -17.78 30.48) (xy -5.08 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf86a33-606b-4c2a-a4a8-4a98a8237e1b")
 	)
 	(wire
 		(pts
@@ -5493,16 +5469,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 29.21) (xy 17.78 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0b78601-1fe3-401a-8f5e-1c68cb0bf056")
-	)
-	(wire
-		(pts
 			(xy 133.35 80.01) (xy 133.35 76.2)
 		)
 		(stroke
@@ -5520,6 +5486,16 @@
 			(type default)
 		)
 		(uuid "e1d7f5a8-2928-4546-acb1-761e56d08bd9")
+	)
+	(wire
+		(pts
+			(xy 5.08 29.21) (xy 0 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e31f4683-fcfb-467c-b6c1-00220b08a61e")
 	)
 	(wire
 		(pts
@@ -5897,6 +5873,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 218.44 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1721ee4a-008a-4253-9d85-fb3748249571")
+		(property "Reference" "#PWR04"
+			(at 218.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfadb8af-2f00-4a1d-b7f1-2d9a00479059")
+		)
+		(instances
+			(project ""
+				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_SwitchedCapacitor:ICL7660")
 		(at 72.39 33.02 0)
 		(mirror y)
@@ -5984,7 +6026,7 @@
 	)
 	(symbol
 		(lib_id "New_Library:TP4056")
-		(at -21.59 27.94 0)
+		(at -15.24 20.32 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5993,23 +6035,25 @@
 		(fields_autoplaced yes)
 		(uuid "21c8415b-31cf-406a-ab46-880c1f1f61ea")
 		(property "Reference" "U6"
-			(at -21.59 19.05 0)
+			(at -6.35 19.6849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "~"
-			(at -21.59 20.32 0)
+			(at -6.35 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Library:TP4056"
-			(at -21.59 27.94 0)
+			(at -15.24 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6018,7 +6062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -21.59 27.94 0)
+			(at -15.24 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,7 +6071,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -21.59 27.94 0)
+			(at -15.24 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,6 +7300,81 @@
 		)
 	)
 	(symbol
+		(lib_id "New_Library:18650")
+		(at -2.54 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88192397-a44d-4b6a-ba43-74098f2554d4")
+		(property "Reference" "U7"
+			(at 3.81 19.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18650"
+			(at 3.81 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at -8.89 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
+			(at 8.89 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
+			(at -2.54 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40ebf433-d80f-46ec-bcc7-f26f70ddcdfd")
+		)
+		(pin "2"
+			(uuid "b933bb07-e1c7-4295-8b36-c29d996da15f")
+		)
+		(pin "6"
+			(uuid "581201f6-4216-4606-bb52-babd9290e4f6")
+		)
+		(instances
+			(project ""
+				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 53.34 43.18 0)
 		(unit 1)
@@ -7389,85 +7508,6 @@
 			(project "termometro_digital_fabricio"
 				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:18650")
-		(at 0 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a724398b-13d1-4e77-a5c9-255cb534c6d2")
-		(property "Reference" "U7"
-			(at 0 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "18650"
-			(at 0 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:BatteryHolder_MPD_BH-18650-PC2"
-			(at 1.27 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
-			(at -6.35 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
-			(at 0 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79682871-e801-4256-94d8-494ce10f290a")
-		)
-		(pin "2"
-			(uuid "5cf63f24-1f0c-42fa-9211-d1a5b1b767ff")
-		)
-		(pin "6"
-			(uuid "2f55ece9-ccc2-4927-be31-6bda8257359f")
-		)
-		(pin "4"
-			(uuid "6f8b5521-b323-47b4-8a47-de4be11dac6c")
-		)
-		(pin "3"
-			(uuid "cbb76257-d4b1-4d8b-95b1-6a512200f59e")
-		)
-		(instances
-			(project ""
-				(path "/161d34a1-6999-4fe3-942b-be173cb3f8a5"
-					(reference "U7")
 					(unit 1)
 				)
 			)
